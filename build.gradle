@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies{
+	compile 'javax:javaee-api:7.0'
+	compile 'org.jboss:jboss-remote-naming:2.0.3.Final'
+	compile 'org.jboss.xnio:xnio-nio:3.3.0.Final'
+	
+}
